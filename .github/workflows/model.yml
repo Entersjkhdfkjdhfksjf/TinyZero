@@ -1,8 +1,8 @@
 name: model_rmpad
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the main branch
+#Made evrything start up manually. This applies for evrything else as well, just too lazy to change it rn
+  workflow_dispatch:
   push:
     branches:
       - main
